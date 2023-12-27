@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BEM Naming Convention </title>
+    <style>
+      
+       
+        .paragraph {
+            margin-bottom: 20px;
+        }
+
+        
+        .paragraph__heading {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+       
+        .paragraph__text {
+            line-height: 1.5;
+        }
+
+       
+        .paragraph--highlighted {
+            background-color: #ffeeba;
+            border: 1px solid #ffc107;
+            padding: 10px;
+        }
+    </style>
+    <title>BEM Example</title>
+</head>
+<body>
+    <div class="paragraph">
+        <h2 class="paragraph__heading">Paragraph 1</h2>
+        <p class="paragraph__text">This is the text of paragraph 1.</p>
+    </div>
+
+    <div class="paragraph paragraph--highlighted">
+        <h2 class="paragraph__heading">Paragraph 2</h2>
+        <p class="paragraph__text">This is the text of paragraph 2, and it is highlighted.</p>
+    </div>
+
+    <div class="paragraph">
+        <h2 class="paragraph__heading">Paragraph 3</h2>
+        <p class="paragraph__text">This is the text of paragraph 3.</p>
+    </div>
+</body>
+</html>
